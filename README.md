@@ -11,6 +11,7 @@ ProLinq is a library with IQueryable extensions and tools. It aims to help using
 
 ### Wcf
 ProLinq.Wcf allows you to use IQueryable in your WCF web services.  
+
     var prods = channel.GetProducts().Where(p => p.CategoryId == 1).OrderByDescending(a => a.Price).Take(3);
 
 ### Projection
@@ -18,8 +19,9 @@ ProLinq can project IQueryable sources on it's own, meaning it doesn't rely on t
 
     IQueryable<BusinessProduct> businessProducts = products.Project().To<BusinessProduct>(p => new BusinessProduct(p)); 
 
-###Interception
+### Interception
 ProLinq can also intercept query execution for purposes of logging, result replacement and etc.  
+
     IQueryable<Product> products = ProductRepository.Get();
     products.Intercept(q =>
 		{

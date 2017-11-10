@@ -1,21 +1,13 @@
 # ProLinq
 
-This repository is a copy of: http://prolinq.codeplex.com/
-
+This repository is a copy of: http://prolinq.codeplex.com/  
 I create a copy because CodePlex is near to be closed.
 
-About
+## About
 
 ProLinq is a library with IQueryable extensions and tools. It aims to help using IQueryable in business applications, giving you more control over it.
 
-What's new
-
-3/10/2013  
-ProLinq is updated.
-Added configuration options
-Added fluent configuration API
-ProLinq.Wcf is released. See documentation.
-Quick preview
+## Quick preview
 
 Wcf
 ProLinq.Wcf allows you to use IQueryable in your WCF web services.

@@ -7,9 +7,10 @@ I create a copy because CodePlex is near to be closed.
 About
 
 ProLinq is a library with IQueryable extensions and tools. It aims to help using IQueryable in business applications, giving you more control over it.
+
 What's new
 
-3/10/2013
+3/10/2013  
 ProLinq is updated.
 Added configuration options
 Added fluent configuration API
